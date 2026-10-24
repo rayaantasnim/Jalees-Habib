@@ -1,0 +1,235 @@
+/* ==========================================================================
+   Ultra-Premium Tech Capsule Styling Stack (Light Mode Contrast Focus)
+   ========================================================================== */
+
+/* Universal Role Badge Layout Configurations */
+.pipeline-content .role-badge.role-badge--engineering {
+  display: inline-block !important;
+  width: fit-content !important;
+  font-family: var(--font-mono, "Fira Code", "Courier New", monospace) !important;
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.015em !important;
+
+  /* Precision Capsule Spacing & Borders */
+  padding: 0.4rem 0.95rem !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.2rem !important;
+  border-radius: 8px !important;
+  box-sizing: border-box !important;
+
+  /* Hardware Accelerated Motion Physics */
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* 🌿 CARD 1 SPECIFIC: Jalees Habib (Vibrant Emerald Matrix) */
+.pipeline-card:nth-child(1) .role-badge.role-badge--engineering {
+  color: #065f46 !important; /* Deep forest contrast color */
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(52, 211, 153, 0.03)) !important;
+  border: 1px solid rgba(16, 185, 129, 0.28) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.6),
+    0 4px 6px -1px rgba(16, 185, 129, 0.05) !important;
+}
+
+/* Card Hover Dynamics: Elevates the specific badge inside the container */
+.pipeline-card:nth-child(1):hover .role-badge.role-badge--engineering {
+  transform: translateY(-2px) scale(1.02) !important;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.16), rgba(52, 211, 153, 0.06)) !important;
+  border-color: rgba(16, 185, 129, 0.55) !important;
+  box-shadow:
+    0 10px 20px -5px rgba(16, 185, 129, 0.2),
+    0 0 15px rgba(52, 211, 153, 0.45) !important; /* Multi-line neon radiant light aura */
+}
+
+/* ⚡ CARD 2 SPECIFIC: Rayaan Tasnim (Vibrant Cyan/Sapphire Matrix) */
+.pipeline-card:nth-child(2) .role-badge.role-badge--engineering {
+  color: #1e40af !important; /* Deep rich navy contrast color */
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(6, 182, 212, 0.03)) !important;
+  border: 1px solid rgba(59, 130, 246, 0.28) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.6),
+    0 4px 6px -1px rgba(59, 130, 246, 0.05) !important;
+}
+
+/* Card Hover Dynamics: Elevates the specific badge inside the container */
+.pipeline-card:nth-child(2):hover .role-badge.role-badge--engineering {
+  transform: translateY(-2px) scale(1.02) !important;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.16), rgba(6, 182, 212, 0.06)) !important;
+  border-color: rgba(59, 130, 246, 0.55) !important;
+  box-shadow:
+    0 10px 20px -5px rgba(59, 130, 246, 0.2),
+    0 0 15px rgba(6, 182, 212, 0.45) !important; /* Multi-line neon radiant light aura */
+}
+
+/* ==========================================================================
+   IDAI Universe Explore Button (Centered Neon Cyber-Dark Variant)
+   ========================================================================== */
+
+/* Button Structural Wrapper Positioning - NOW CENTER ALIGNED */
+.contributor-button {
+  margin-top: 2rem !important;
+  margin-bottom: 0.5rem !important;
+  display: flex !important;
+  justify-content: center !important; /* Horizontally centers the button container */
+  width: 100% !important; /* Takes full width of the card to center properly */
+}
+
+/* Base Hyper-Link Capsule Design */
+.contributor-button a.contributor {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+
+  /* Typography Hierarchy */
+  font-family: var(--font-mono, "Fira Code", Consolas, monospace) !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+
+  /* Precision Sizing & Boundary Matrix */
+  padding: 0.75rem 1.8rem !important;
+  border-radius: 30px !important; /* Premium pill-shape curvature */
+  cursor: pointer !important;
+  position: relative !important;
+
+  /* High-Contrast Cyber-Dark Theme Configuration */
+  color: #ffffff !important;
+  background: #0f172a !important; /* Rich obsidian deep dark background */
+  border: 1px solid rgba(59, 130, 246, 0.3) !important;
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
+    0 4px 10px rgba(0, 0, 0, 0.05) !important;
+
+  /* Premium Transition Curve */
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* High-Fidelity Hover State Interactions */
+.contributor-button a.contributor:hover {
+  transform: translateY(-3px) scale(1.02) !important;
+  color: #ffffff !important;
+  background: #1e293b !important; /* Shifting to lighter dark slate */
+
+  /* Blending Electric Cyan, Magenta & Violet into an out-of-this-world neon aura */
+  border-color: rgba(6, 182, 212, 0.8) !important;
+  box-shadow:
+    0 15px 30px -8px rgba(15, 23, 42, 0.3),
+    0 0 15px -2px rgba(6, 182, 212, 0.5),
+    /* Neon Cyan Glow Layer */ 0 0 25px -5px rgba(236, 72, 153, 0.4) !important; /* Neon Pink/Magenta Flare Layer */
+}
+
+/* Tactile Click/Press Feedback */
+.contributor-button a.contributor:active {
+  transform: translateY(-1px) scale(0.99) !important;
+  box-shadow: 0 4px 8px -3px rgba(6, 182, 212, 0.4) !important;
+  opacity: 0.95 !important;
+}
+
+/* Micro-Interactive Dynamic Direction Arrow */
+.contributor-button a.contributor::after {
+  content: "→" !important;
+  display: inline-block !important;
+  margin-left: 0.6rem !important;
+  font-family: system-ui, sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: 500;
+  transform: translateX(0) !important;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* Slides arrow out smoothly when hovered */
+.contributor-button a.contributor:hover::after {
+  transform: translateX(5px) !important;
+}
+
+/* ==========================================================================
+   Contributors Section - Equalized Image Containers (Height Alignment Fixed)
+   ========================================================================== */
+
+/* Locked down at a clean, identical 360px height metric across both profile components */
+#jalees-image,
+#rayaan-image {
+  width: 100% !important;
+  height: 360px !important; 
+  border-radius: 16px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* 🌿 Custom Border Theme for Jalees's Card */
+#jalees-image {
+  border: 1px solid rgba(16, 185, 129, 0.2) !important; /* Emerald Tint */
+  box-shadow: 0 8px 20px -6px rgba(16, 185, 129, 0.08) !important;
+}
+
+#jalees-image:hover {
+  border-color: rgba(16, 185, 129, 0.45) !important;
+  box-shadow: 
+    0 20px 35px -8px rgba(16, 185, 129, 0.15),
+    0 0 15px -2px rgba(52, 211, 153, 0.25) !important;
+}
+
+/* ⚡ Custom Border Theme for Rayaan's Card */
+#rayaan-image {
+  border: 1px solid rgba(59, 130, 246, 0.2) !important; /* Tech Blue Tint */
+  box-shadow: 0 8px 20px -6px rgba(59, 130, 246, 0.08) !important;
+}
+
+#rayaan-image:hover {
+  border-color: rgba(59, 130, 246, 0.45) !important;
+  box-shadow: 
+    0 20px 35px -8px rgba(59, 130, 246, 0.15),
+    0 0 15px -2px rgba(6, 182, 212, 0.25) !important;
+}
+
+/* Universal Image Fitting Rules inside Containers */
+#jalees-image img,
+#rayaan-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important; 
+  object-position: center 35% !important; /* Focuses perfectly on the epic horizons */
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* Slow-zoom interaction rule applied on card selection focus */
+#jalees-image:hover img,
+#rayaan-image:hover img {
+  transform: scale(1.03) !important;
+}
+
+/* ==========================================================================
+   Structural Responsive Grid Overrides (Desktop Side-by-Side Lock)
+   ========================================================================== */
+
+/* Applies structural layouts for tablet/desktop viewports */
+@media (min-width: 993px) {
+  .pipeline-cards {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important; /* Locks columns horizontally */
+    gap: 2rem !important;
+    align-items: stretch !important; /* Equalizes matching card heights */
+  }
+
+  .pipeline-card {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    height: 100% !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Wraps gracefully on mobile systems */
+@media (max-width: 992px) {
+  .pipeline-cards {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2.5rem !important;
+  }
+}
